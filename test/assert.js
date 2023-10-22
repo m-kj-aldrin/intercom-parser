@@ -19,7 +19,7 @@ export default {
                         2
                     )}\n${JSON.stringify(b, null, 2)}`,
                     "font-family:monospace;color:green;font-weight:bold",
-                    "font-family:monospace;color:black"
+                    "background:white;font-family:monospace;color:black"
                 );
             } else {
                 console.log(
@@ -41,7 +41,7 @@ export default {
             } else {
                 console.log(
                     `%cfailed: ${msg}`,
-                    "font-family:monospace;color:red;font-weight:bold"
+                    "background:white;font-family:monospace;color:red;font-weight:bold"
                 );
             }
         }
