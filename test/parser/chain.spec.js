@@ -56,6 +56,5 @@ assert.objectEqual(
             },
         ],
     },
-    "chain string",
-    true
+    "chain string"
 );

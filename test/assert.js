@@ -36,7 +36,7 @@ export default {
                         2
                     )}\n${JSON.stringify(b, null, 2)}`,
                     "font-family:monospace;color:red;font-weight:bold",
-                    "font-family:monospace;color:black"
+                    "background:white;font-family:monospace;color:black"
                 );
             } else {
                 console.log(

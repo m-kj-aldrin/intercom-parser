@@ -11,3 +11,15 @@ assert.objectEqual(
     },
     "module string"
 );
+
+let moduleString1 = "LFO";
+
+assert.objectEqual(
+    module(moduleString1),
+    {
+        name: "LFO",
+        parameters: [],
+    },
+    "module string",
+    true
+);
