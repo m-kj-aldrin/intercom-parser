@@ -13,7 +13,7 @@ import parameter from "./parameter.js";
 export default function (moduleString) {
     const [name, values] = moduleString.split(/^(\w{3})/).slice(1);
 
-    let valueSplits = values.match(/[^\[:](\d+)[^\]:]|\[\d+:\d+\]/g);
+    let valueSplits = values.match(/[^\[:](\d+)[^\]:]|\[\d+:\d+\]|\d+/g);
 
     const parameters = valueSplits?.map(parameter) ?? [];
 

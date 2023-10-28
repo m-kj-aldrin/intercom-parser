@@ -20,6 +20,17 @@ assert.objectEqual(
         name: "LFO",
         parameters: [],
     },
+    "module string"
+);
+
+let moduleString2 = "PRO33";
+
+assert.objectEqual(
+    module(moduleString2),
+    {
+        name: "PRO",
+        parameters: [{ value: 33 }],
+    },
     "module string",
     true
 );
